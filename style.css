@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+main section {
+  height: 100%;
+  flex-grow: 1;
+  background-size: cover;
+  background-position: center;
+}
+main section:hover {
+  flex-grow: 1.5;
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+  cursor: pointer;
+}
+main section:nth-child(1) {
+  background-image: url(./Images/actor1.jpg);
+}
+main section:nth-child(2) {
+  background-image: url(./Images/actor2.jpeg);
+}
+main section:nth-child(3) {
+  background-image: url(./Images/actor3.jpeg);
+}
+main section:nth-child(4) {
+  background-image: url(./Images/actors4.jpeg);
+}
+main section:nth-child(5) {
+  background-image: url(./Images/actors5.webp);
+}/*# sourceMappingURL=style.css.map */
